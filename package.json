@@ -1,10 +1,13 @@
 {
-  "name": "txpress",
+  "name": "itpress",
   "description": "",
   "version": "0.0.1",
   "author": "Gyeongsu Choi <choiiisu11@gmail.com>",
   "license": "MIT",
-  "repository": "Gyeongsu1997/txpress",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gyeongsu1997/itpress"
+  },
   "homepage": "",
   "keywords": [],
   "dependencies": {
@@ -13,9 +16,10 @@
     "serve-static": "^1.16.2"
   },
   "devDependencies": {
-    "morgan": "^1.10.0",
     "cookie-parser": "^1.4.7",
-    "express-session": "^1.18.1"
+    "express-session": "^1.18.1",
+    "morgan": "^1.10.0",
+    "ts-node": "^10.9.2"
   },
   "scripts": {}
 }
